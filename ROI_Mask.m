@@ -3,7 +3,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Inupt: Four Moapping Co-ordinate
+% Inupt: Four Corner Moapping Co-ordinate
 % R = Mapping Reference from Image
 % Image_DN = Image that you read using GeoTiFF Function, its used to have
 % size of image for creating a ROI mask of Image size
