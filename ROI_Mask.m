@@ -1,3 +1,15 @@
+%% Function to Create ROI using Mapping Coordinates:
+%  Author: Rahul Shah
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Inupt: Four Moapping Co-ordinate
+% R = Mapping Reference from Image
+% Image_DN = Image that you read using GeoTiFF Function, its used to have
+% size of image for creating a ROI mask of Image size
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function ROI = ROI_Mask(Upper_Left_Latitude, Upper_Right_Latitude, Lower_Right_Latitude, Lower_Left_Latitude,...
     Upper_Right_Longitude, Lower_Right_Longitude, Lower_Left_Longitude, Upper_Left_Longitude,R,Image_DN)
 
